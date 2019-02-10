@@ -1,0 +1,38 @@
+Metadata-Version: 2.0
+Name: clipper-admin
+Version: 0.3.0
+Summary: Admin commands for the Clipper prediction-serving system
+Home-page: http://clipper.ai
+Author: Dan Crankshaw
+Author-email: crankshaw@cs.berkeley.edu
+License: Apache-2.0
+Description-Content-Type: UNKNOWN
+Keywords: clipper,prediction,model,management
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: numpy
+Requires-Dist: pyyaml
+Requires-Dist: docker
+Requires-Dist: kubernetes (>=6.0.0)
+Requires-Dist: prometheus-client
+Requires-Dist: cloudpickle (>=0.5)
+Requires-Dist: redis
+Requires-Dist: psutil
+Requires-Dist: jsonschema
+Requires-Dist: subprocess32; python_version < "3"
+Requires-Dist: enum34; python_version < "3.4"
+Provides-Extra: PySpark
+Requires-Dist: pyspark; extra == 'PySpark'
+Provides-Extra: TensorFlow
+Requires-Dist: tensorflow; extra == 'TensorFlow'
+
+Clipper
+========
+
+Library for creating and managing a Clipper model serving Cluster.
+
+To learn more about Clipper visit our website <http://clipper.ai> or check us out on GitHub <https://github.com/ucbrise/clipper>.
+
+You can contact us at <clipper-dev@googlegroups.com>
+
+
